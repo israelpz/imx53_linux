@@ -8,7 +8,7 @@ static int hello_init(void)
 }
 static void hello_exit(void)
 {
-    printk(KERN_ALERT "Goodbye, World!!\n");
+    printk(KERN_ALERT "Goodbye, Hello World!!\n");
 }
 module_init(hello_init);
 module_exit(hello_exit);
